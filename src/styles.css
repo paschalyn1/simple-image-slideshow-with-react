@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: fit-content;
+  margin-top: 20px;
+  padding: 20px;
+  background: rgb(24, 23, 23);
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+body {
+  background: black;
+  color: white;
+}
+
+img {
+  width: 50%;
+}
+
+button:first-child {
+  background: rgb(133, 8, 8);
+}
+
+button:last-child {
+  background: rgb(3, 87, 3);
+}
+button {
+  color: white;
+  font-weight: bolder;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+}
+
+h3,
+p {
+  text-align: center;
+}
